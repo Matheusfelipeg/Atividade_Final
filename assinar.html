@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+</head>
+
+<body bgcolor="BLACK">
+    <br>
+    <font color="lime">
+        <h1 align="center">Plano Jogador Caro</h1>
+    </font>
+    <!---------->
+   
+            <fieldset>
+                <img src="img/caro.jpg" alt="" align="right" height="500" width="">
+                <font color="lime"><H1>Formas de pagamento</H1></font>
+                <Details>
+             <summary><font color="white" size="5"><p>Cartão de Credito</p></font></summary>
+                <table>
+                    <tr>
+                        <br><br>
+                        <td>
+                            <font color="white"></font>
+                                <label for=""> <font color="white">Numero do Cartão</font></label>
+                                <input type="number" id="cartao" name="cartao" values="cartao" required>
+
+                                <label for=""><font color="white">CVV</font></label>
+                                <input type="number" id="cvv" name="cvv" values="cvv" min="000" max="999" required>
+                                <br><br>
+                                <label for=""><font color="white">Validade</font></label>
+                                <input type="date" id="Validade" name="Validade" values="Validade" min="2023-10-11"
+                                    max="2030-01-01" required>
+                            </font>
+                            <br>
+                            <input type="submit" id="enviar" name="enviar" values="enviar dados" />
+                        </td>   
+                    </tr>
+                </table>
+            </Details>
+            <!---------------------------------------------------->
+            <Details>
+                <summary><font color="white" size="5"><p>Pix</p></font></summary>
+                   <table>
+                       <tr>
+                        <font color="lime" size="5"><p>Pix copia e cola</p>
+                        <td>
+                            <input type="text" placeholder="fgwgfjhewhjf#$chbqhr3%ewqnrnqeur@ewhbahbeagadyugdfahdfbadbhjf" readonly> 
+                            <br><br>
+                       </tr>
+                       
+                   </table>
+               </Details>
+<br><br>
+            <!------------------->
+            <Details>
+                <summary><font color="white" size="5"><p>Boleto</p></font></summary>
+                   <table>
+                       <tr>
+                        <img src="img/codigo.jfif" alt="">
+                       </tr>
+                   </table> 
+               </Details>
+
+            </fieldset>
+ 
+
+
+</body>
+
+</html>
